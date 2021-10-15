@@ -1,21 +1,21 @@
 ﻿body {
-    background: url(../Imagenes/Fondo4.jpg);
+    background: url(../Imagenes/Fondo8.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: black;
+
 }
 
 span {
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration:underline;
 }
-
 
 /*  NAVBAR STYLE  */
 nav {
-    background-color: rgb(35 18 0 / 0.80);
+    background-color: rgb(35 40 30 / 0.80);
     color: black;
     box-shadow: 0 0 15px rgb(255 255 255);
     border: 1px solid gray;
@@ -60,12 +60,12 @@ nav ul li a {
     }
 
 .buscador {
-    background-color: rgb(35 18 0 / 0.80);
+    background-color: rgb(35 40 30 / 0.80);
     color: rgb(230 230 230);
 }
 
     .buscador:focus {
-        background-color: rgb(35 18 0 / 0.80);
+        background-color: rgb(35 40 30 / 0.80);
         color: rgb(230 230 230);
     }
 
@@ -75,9 +75,8 @@ nav ul li a {
 
 /*  FIN NAVBAR STYLE  */
 
-
 .tarjeta {
-    background-color: rgb(35 18 0 / 0.80);
+    background-color: rgb(35 40 30 / 0.80);
     font-size: 18px;
     color: rgb(191 191 191);
     height: 100%;
@@ -85,44 +84,9 @@ nav ul li a {
     box-shadow: 0 0 15px rgb(255 255 255);
 }
 
-.listaNoticias {
-    font-family: 'Leelawadee UI';
-    font-size: 20px;
-
-}
-
-.listaNoticias  a {
-    text-decoration: none;
-    color: rgb(191 191 191);
-}
-
-.listaNoticias a:hover{
-    color: rgb(230 230 230);
-}
-
-.tituloAside{
-    text-align:center;
-    margin-top: 8px;
-}
-
-.titulo {
-    text-align: center;
-    margin-top: 8px;
-}
-
-.imagen1 {
-    margin-left: 13px;
-    height: 140px;
-    width: 140px;
-    max-height: 140px;
-    max-width: 140px;
-    border: 1px solid gray;
-}
-
-.boton{
-    width:50%;
-    margin-top: 5px;
-    margin-left:5px;
+.div2 {
+    margin-left: 10px;
+    margin-right: 12px;
 }
 
 .imagen2 {
@@ -136,24 +100,12 @@ nav ul li a {
     border: 1px solid gray;
 }
 
-.tarjetaNoticia {
-    background-color: rgb(28 18 0 / 0.80);
+.navegador{
+    margin-top:15px;
+    margin-left:15px;
+    
 }
 
-.div2{
-    margin-left: 10px;
-    margin-right: 12px;
-
-}
-
-#txtBuscador {
-    font-size: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 3px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    background-color: rgb(35 18 0 / 0.80);
-    border: 1px solid gray;
-    color: rgb(200 200 200);
+.lista li{
+    color: rgb(35 40 30 / 0.80);
 }
