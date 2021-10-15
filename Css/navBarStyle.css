@@ -1,0 +1,59 @@
+﻿
+nav {
+    background-color: rgb(45 35 30 / .80);
+    color: black;
+    box-shadow: 0 0 15px rgb(255 255 255);
+    border: 1px solid gray;
+}
+
+.divNav {
+    margin-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navTitulo {
+    font-size: 18px;
+    padding: 7px 13px;
+}
+
+nav ul li a {
+    padding: 7px 13px;
+    border-radius: 3px;
+    margin-left: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+    nav ul li a:hover {
+        background-color: rgb(255 255 255 / 0.5);
+        transition: .5s;
+    }
+
+
+.logo {
+    height: 50px;
+    width: 150px;
+    max-height: 50px;
+    max-width: 150px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+    .logo:hover {
+        border-color: white;
+        transition: .5s
+    }
+
+.buscador {
+    background-color: rgb(45 40 30 / .80);
+    color: rgb(230 230 230);
+}
+
+    .buscador:focus {
+        background-color: rgb(45 40 30 / .80);
+        color: rgb(230 230 230);
+    }
+
+    .buscador::placeholder {
+        color: rgb(230 230 230);
+    }
